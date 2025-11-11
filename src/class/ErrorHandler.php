@@ -1,6 +1,6 @@
 <?php
 
-namespace Bausystem;
+namespace Bausystem\Provisioner;
 
 use Blocks\System\Helper\CommandLineOutput;
 use Blocks\System\SimpleLogger;
