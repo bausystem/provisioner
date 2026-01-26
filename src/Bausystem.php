@@ -2,7 +2,7 @@
 
 namespace Bausystem\Provisioner;
 
-use Blocks\System\SimpleLogger;
+use Blocks\Log\SimpleLogger;
 use Bausystem\Provisioner\ErrorHandler;
 
 class Bausystem {

@@ -2,8 +2,8 @@
 
 namespace Bausystem\Provisioner;
 
-use Blocks\System\Helper\CommandLineOutput;
-use Blocks\System\SimpleLogger;
+use Blocks\Console\CommandLineOutput;
+use Blocks\Log\SimpleLogger;
 
 /**
  * A class for catching all the regular exceptions and displaying them to the
