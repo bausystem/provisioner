@@ -1,5 +1,5 @@
 {
-    "name": "stepcodebox/bausystem",
+    "name": "bausystem/provisioner",
     "description": "A set of PHP classes for writing DevOps scripts",
     "license": "MIT",
     "keywords": [
@@ -13,35 +13,15 @@
         "aws/aws-sdk-php": "^3.33",
         "symfony/yaml": "^7",
         "beberlei/assert": "^3.3",
-        "phpunit/phpunit": "^9.6",
+        "phpunit/phpunit": "^11.2",
+        "blocksframework/console": "dev-master",
+        "blocksframework/log": "dev-master",
         "blocksframework/system": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "Bausystem\\Provisioner\\": "src/class"
+            "Bausystem\\Provisioner\\": "src"
         }
-    },
-    "scripts": {
-        "cs-fix": "./tools/php-cs-fixer/vendor/bin/php-cs-fixer --config=.php-cs-fixer.php fix",
-        "test": [
-            "Composer\\Config::disableProcessTimeout",
-            "./vendor/bin/phpunit --verbose tests"
-        ],
-        "test-unit": [
-            "Composer\\Config::disableProcessTimeout",
-            "./vendor/bin/simple-phpunit tests/unit --stop-on-failure"
-        ],
-        "test-u": "@test-unit",
-        "test-integration": [
-            "Composer\\Config::disableProcessTimeout",
-            "./vendor/bin/simple-phpunit tests/integration --stop-on-failure"
-        ],
-        "test-i": "@test-integration",
-        "test-functional": [
-            "Composer\\Config::disableProcessTimeout",
-            "./vendor/bin/simple-phpunit tests/functional --stop-on-failure"
-        ],
-        "test-f": "@test-functional"
     },
     "authors": [
         {
