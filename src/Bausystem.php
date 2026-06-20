@@ -20,19 +20,6 @@ class Bausystem {
             exit();
         }
 
-        $vendor_string_pos = strpos(__DIR__, '/vendor/');
-
-        if ($vendor_string_pos === false) {
-            trigger_error("Fatal error: your __DIR__ doesn't contain \"/vendor/\" string. You are either using a different path for your vendor folder which is not supported or rather your directory structure is unexpected", E_USER_ERROR);
-            exit();
-        }
-
-        $script_root = substr(__DIR__, 0, $vendor_string_pos);
-        $script_root = rtrim($script_root, '/');
-        
-        // Make server root available globally
-        define('SCRIPT_ROOT', $script_root);
-
         // This is highly unlikely, but still
         if ( ini_get('register_globals') ) {
             trigger_error('Your PHP environment has register_globals enabled. Disable it on this server before running the web-site.', E_USER_ERROR);

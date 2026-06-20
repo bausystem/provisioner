@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.369.19",
+            "version": "3.369.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "32fee3a25290186724ede9ca177d5090f7c5a837"
+                "reference": "7076af00534135cbbf6cc19eb2521124a3549f0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/32fee3a25290186724ede9ca177d5090f7c5a837",
-                "reference": "32fee3a25290186724ede9ca177d5090f7c5a837",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7076af00534135cbbf6cc19eb2521124a3549f0d",
+                "reference": "7076af00534135cbbf6cc19eb2521124a3549f0d",
                 "shasum": ""
             },
             "require": {
@@ -153,9 +153,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.369.19"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.369.21"
             },
-            "time": "2026-01-23T19:05:51+00:00"
+            "time": "2026-01-27T19:14:48+00:00"
         },
         {
             "name": "beberlei/assert",
@@ -248,7 +248,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Blocks\\Console\\": "src/class"
+                    "Blocks\\Console\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -296,7 +296,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Blocks\\Data\\": "src/class"
+                    "Blocks\\Data\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -327,12 +327,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/blocksframework/log.git",
-                "reference": "246b117c95f21ea7cc3961e65a54e23ed356c24b"
+                "reference": "06fa21de419af5932aa4c270f100e09f57d42b2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/blocksframework/log/zipball/246b117c95f21ea7cc3961e65a54e23ed356c24b",
-                "reference": "246b117c95f21ea7cc3961e65a54e23ed356c24b",
+                "url": "https://api.github.com/repos/blocksframework/log/zipball/06fa21de419af5932aa4c270f100e09f57d42b2a",
+                "reference": "06fa21de419af5932aa4c270f100e09f57d42b2a",
                 "shasum": ""
             },
             "require": {
@@ -367,7 +367,7 @@
                 "issues": "https://github.com/blocksframework/log/issues",
                 "source": "https://github.com/blocksframework/log/tree/master"
             },
-            "time": "2026-01-26T08:00:30+00:00"
+            "time": "2026-01-27T23:59:42+00:00"
         },
         {
             "name": "blocksframework/system",
@@ -393,7 +393,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Blocks\\System\\": "src/class"
+                    "Blocks\\System\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1382,16 +1382,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "11.5.49",
+            "version": "11.5.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "4f1750675ba411dd6c2d5fa8a3cca07f6742020e"
+                "reference": "fdfc727f0fcacfeb8fcb30c7e5da173125b58be3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/4f1750675ba411dd6c2d5fa8a3cca07f6742020e",
-                "reference": "4f1750675ba411dd6c2d5fa8a3cca07f6742020e",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/fdfc727f0fcacfeb8fcb30c7e5da173125b58be3",
+                "reference": "fdfc727f0fcacfeb8fcb30c7e5da173125b58be3",
                 "shasum": ""
             },
             "require": {
@@ -1463,7 +1463,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.5.49"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.5.50"
             },
             "funding": [
                 {
@@ -1487,7 +1487,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-01-24T16:09:28+00:00"
+            "time": "2026-01-27T05:59:18+00:00"
         },
         {
             "name": "psr/http-client",
