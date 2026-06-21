@@ -1,3 +1,4 @@
+.env
 /script/
 /vendor/
 /.php_cs.cache
